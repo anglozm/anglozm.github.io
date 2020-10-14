@@ -1,41 +1,34 @@
-.navigation {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 0;
-    background: cornflowerblue;
+@media all and (max-width: 576px) {}
+
+@media all and (max-width: 768px) {}
+
+@media all and (max-width: 992px) {}
+
+@media all and (max-width: 1200px) {}
+
+
+/* fallback */
+
+
+/* @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
 }
 
-.navigation a {
-    text-decoration: none;
-    display: block;
-    padding: 1em;
-    color: white;
-}
-
-.navigation a:hover {
-    background: #1565C0;
-}
-
-@media all and (max-width: 800px) {
-    .navigation {
-        justify-content: space-around;
-    }
-}
-
-@media all and (max-width: 600px) {
-    .navigation {
-        flex-flow: column wrap;
-        padding: 0;
-    }
-    .navigation a {
-        text-align: center;
-        padding: 10px;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
-    .navigation li:last-of-type a {
-        border-bottom: none;
-    }
-}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+} */
