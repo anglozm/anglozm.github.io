@@ -6,4 +6,8 @@ $(() => {
             console.log("\"about\" link was pressed")
         }
     })
+
+    $(".animated-hamburger-icon").on("click", function() {
+        $(".animated-hamburger-icon").toggleClass("open")
+    })
 })
